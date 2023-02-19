@@ -27,8 +27,9 @@ def find_mismatch(text):
 
 def main():
     text=input()
-    text=input()
-    mismatch=find_mismatch(text)
+    if(text=="I"):
+        text=input()
+        mismatch=find_mismatch(text)
     
     print(mismatch)
 
